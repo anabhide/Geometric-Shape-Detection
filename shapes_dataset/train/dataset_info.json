@@ -1,0 +1,68 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "geometric-shapes",
+  "dataset_size": 34431546,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/0-ma/geometric-shapes@7a565777f7983173c3b50b5925c05d195ea86915/data/train-00000-of-00001.parquet": {
+      "num_bytes": 17316032,
+      "checksum": null
+    },
+    "hf://datasets/0-ma/geometric-shapes@7a565777f7983173c3b50b5925c05d195ea86915/data/validation-00000-of-00001.parquet": {
+      "num_bytes": 2492251,
+      "checksum": null
+    },
+    "hf://datasets/0-ma/geometric-shapes@7a565777f7983173c3b50b5925c05d195ea86915/data/test-00000-of-00001.parquet": {
+      "num_bytes": 4944340,
+      "checksum": null
+    }
+  },
+  "download_size": 24752623,
+  "features": {
+    "image": {
+      "_type": "Image"
+    },
+    "label": {
+      "names": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "_type": "ClassLabel"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 59184169,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 24093502,
+      "num_examples": 14694,
+      "dataset_name": "geometric-shapes"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 3453750,
+      "num_examples": 2100,
+      "dataset_name": "geometric-shapes"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 6884294,
+      "num_examples": 4200,
+      "dataset_name": "geometric-shapes"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
